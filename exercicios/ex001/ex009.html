@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade: Brasileiro ou Estrangeiro</h1>
+    Onde você nasceu? <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Confirmar" onclick="avaliar()">
+    <div id="fim">
+
+    </div>
+    <script>
+        function avaliar() {
+            var txtfim = window.document.getElementById('txt1')
+            var fim = window.document.getElementById('fim')
+
+            if (txtfim == 'Brasil') {
+                fim.innerHTML += `<p>Você é <strong>Brasileiro</strong>!<p>`
+                } else {
+                fim.innerHTML += `<p>Você é <strong>Estrangeiro</strong>!<p>`
+                }
+
+                fim.innerHTML='<p>Obrigado por responder!</p>'
+        }
+
+
+    </script>
+    
+</body>
+</html>
