@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(59, 120, 253);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font: normal bold 3em Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+    margin:auto; /* Para centralizar */
+    padding-top: 20px;
+    width: 500px; /* Largura da caixa */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.400);
+}
+
+section > input {
+    margin-left: 5px;
+}
+section > p {
+    
+    display: inline-block;
+    margin-top: 10px;
+}
+
+div {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#botao {
+    margin-top: 10px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
