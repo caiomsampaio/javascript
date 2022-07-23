@@ -13,13 +13,24 @@
     </header>
 
     <section>
-        <p><strong>Ano de Nascimento:</strong></p><input type="number" name="ano" id="ano">
-        <br>
-        <p><strong>Sexo: </strong><input type="radio" name="sexo" id="masc">Masculino<input type="radio" name="sexo" id="fem"> Feminino
-        <br>
-        <input id="botao" type="button" value="Verificar" onclick="enviar()">
-        <div id="res"><p><strong>Preencha os dados acima pra ver o resultado!</strong></p></div>
-        <div id="img"></div>
+        <div>
+            <p><strong>Ano de Nascimento:</strong></p><input type="number" name="ano" id="ano" min="0">
+            <p>
+                <strong>Sexo: </strong>
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="mas">Feminino</label>
+            </p>
+            <p>
+                <input id="botao" type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res"><p><strong>
+        
+        Preencha os dados acima pra ver o resultado!</strong></p></div>
+        
     </section>
 
     <footer>
