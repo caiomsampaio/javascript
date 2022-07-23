@@ -10,24 +10,26 @@ function enviar() {
 
     res.innerHTML =`Detectamos um homem ou uma mulher de <strong>${s}</strong> anos`
 
-    if(s < 18 && homem) {
+    if(s < 18 && m1) {
         res.innerHTML = `Detectamos um homem de ${s} anos`
-        img.src= ""
-    } else if (s >=18 homem) {
+        img.src= "menino.png"
+    } else if (s >=18 && m1) {
         res.innerHTML = `Detectamos um homem de ${s} anos`
-        img.src= ""
-    } else if (s >=60 homem) {
+        img.src= "hjovem.png"
+    } else if (s >=60 && m1) {
         res.innerHTML = `Detectamos um homem de ${s} anos`
-        img.src= ""
-    } else if (s < 18 && mulher) {
+        img.src= "idoso.png"
+    } else if (s < 18 && f1) {
         res.innerHTML = `Detectamos uma mulher de ${s} anos`
-        img.src= ""
-    } else if (s >= 18 && mulher) {
+        img.src= "menina.png"
+    } else if (s >= 18 && f1) {
         res.innerHTML = `Detectamos uma mulher de ${s} anos`
-        img.src= ""
-    } else if (s >=60 && mulher) {
+        img.src= "mjovem.png"
+    } else if (s >=60 && f1) {
         res.innerHTML = `Detectamos uma mulher de ${s} anos`
-        img.src= ""
+        img.src= "idosa.png"
+    } else {
+        res.innerHTML = `[ERRO]`
     }
 
 }
