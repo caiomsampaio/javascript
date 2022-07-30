@@ -5,7 +5,7 @@ function contar() {
     var res = document.getElementById('res')
 
     // Para testar:
-    if (ini.value.lenght == 0 || fim.value.lenght == 0 || passo.value.lenght == 0) {
+    if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         window.alert('[ERRO] Faltam dados!')
     } else {
         window.alert('Tudo OK!')
