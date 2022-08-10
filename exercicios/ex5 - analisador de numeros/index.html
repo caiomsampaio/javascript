@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Analisador de números</title>
+    <title>Analisador de Números</title>
 </head>
 <body>
     <header>
-        <h1>Analisador de números</h1>
+        <h1>Analisador de Números</h1>
     </header>
 
     <section>
         <div>
-            <p>Número (entre 1 e 100): <input type="number" name="num" id="txtn">
+            <p>Número (entre 1 e 100): <input type="number" name="fnum" id="fnum">
             <input type="button" value="Adicionar" onclick="adicionar()"></p>
             
-            <select name="tabela" id="tabnum" size="10">
-                <option value="">Digite um número acima</option>
+            <select name="flista" id="flista" size="10">
+
             </select><br>
 
-            <input type="button" value="Finalizar" onclick="analisar()">
+            <input type="button" value="Finalizar" onclick="finalizar()">
             
         </div>
-        <div>
+        <div id="res">
 
         </div>
     </section>
